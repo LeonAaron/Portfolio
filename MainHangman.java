@@ -1,6 +1,6 @@
 package Hangman;
 
-public class Main {
+public class MainHangman {
     
     public static void main(String[] args) {
         String phrase = "HAPPY BIRTHDAY PAPA!";
