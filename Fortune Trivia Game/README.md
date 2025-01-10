@@ -29,7 +29,7 @@ This will clone the entire Java repository to your local machine.
 
 **2. Navigate to the project folder:**
 
-After cloning the repository, navigate to the Gift Of Fortune Game folder:
+After cloning the repository, navigate to the Fortune Trivia Game folder:
 
 cd Java/Gift\ Of\ Fortune\ Game/
 
