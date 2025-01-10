@@ -3,7 +3,7 @@ Here’s the complete README.md file with all the requested sections, including 
 # Fortune Trivia Game
 
 ## Overview
-The "Gift of Fortune" is a Java-based word guessing game. It presents the player with a series of questions in various categories such as phrases, movies, animals, countries, and more. The player needs to guess the correct answer based on the hint provided. The game is built using Object-Oriented Programming principles, and it features randomization of categories and questions for an engaging experience.
+Fortune Trivia Game is a Java-based word guessing game. It presents the player with a series of questions in various categories such as phrases, movies, animals, countries, and more. The player needs to guess the correct answer based on the hint provided. The game is built using Object-Oriented Programming principles, and it features randomization of categories and questions for an engaging experience.
 
 ## Features
 - Multiple categories for questions (e.g., "Phrase", "Movie Title", "Animal", "Country", etc.)
