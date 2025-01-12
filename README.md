@@ -11,6 +11,6 @@ This repository contains a collection of programming projects that were created 
 
 ## List of Scripts:
 
-1. [Fortune_Trivia_Game.java](https://github.com/LeonAaron/Portfolio/tree/main/Fortune%20Trivia%20Game) - Batch rename a group of files in a specified directory, changing their extensions.
-2. [Hangman.java](https://github.com/LeonAaron/Portfolio/tree/main/Hangman) - Check if a directory exists in the user's home directory. Create it if it doesn't exist.
-3. [Minesweeper.java](https://github.com/LeonAaron/Portfolio/tree/main/Minesweeper) - Download YouTube videos quickly with parallel threads using aria2c.
+1. [Fortune_Trivia_Game.java](https://github.com/LeonAaron/Portfolio/tree/main/Fortune%20Trivia%20Game) - Fun trivia game with customizable difficulty and catgory settings.
+2. [Hangman.java](https://github.com/LeonAaron/Portfolio/tree/main/Hangman) - Entertaining recreation of Hangman with exception handling to prevent invalid user input.
+3. [Minesweeper.java](https://github.com/LeonAaron/Portfolio/tree/main/Minesweeper) - Engaing recreation of Minesweeper that utilizes recursion and object-oriented programming.
