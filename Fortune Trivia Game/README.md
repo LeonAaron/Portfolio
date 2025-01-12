@@ -1,5 +1,3 @@
-Here’s the complete README.md file with all the requested sections, including Example Gameplay, Game Settings, File Structure, and more:
-
 # Fortune Trivia Game
 
 ## Overview
@@ -7,8 +5,7 @@ Fortune Trivia Game is a Java-based word guessing game. It presents the player w
 
 ## Features
 - Multiple categories for questions (e.g., "Phrase", "Movie Title", "Animal", "Country", etc.)
-- Random category selection for each round
-- User-friendly interface for interacting with the game
+- Option for random category selection for each round
 - A variety of question types to keep the gameplay interesting
 - Scoring based on correct answers
 
