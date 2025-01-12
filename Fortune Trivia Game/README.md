@@ -20,18 +20,21 @@ To run this game, you'll need:
 
 To get started, clone the repository using the following command:
 
-git clone https://github.com/LeonAaron/Java.git
+```bash 
+    git clone https://github.com/LeonAaron/Java.git
+    ```
+
 This will clone the entire Java repository to your local machine.
 
 
-**2. Navigate to the project folder:**
+### 2. Navigate to the project folder:
 
 After cloning the repository, navigate to the Fortune Trivia Game folder:
 
 cd Java/Gift\ Of\ Fortune\ Game/
 
 
-**3. Open in your IDE:**
+### 3. Open in your IDE:
 
 You can now open this project in any Java-compatible IDE (such as IntelliJ IDEA or Eclipse) to start working with or running the game.
 
