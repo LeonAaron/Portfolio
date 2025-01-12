@@ -47,21 +47,21 @@ After selecting a random prize for the round, the game will automatically presen
 ### Game Settings  
 Can be customized in MainFortune.py  
 
-Question Categories: The game can randomly select questions from different categories if **Question.generateRandomCategory()** is input.  
-                     Can select specific category by inputing category name (Ex. "Movie Title").
+Question Categories: The game can randomly select questions from different categories if **Question.generateRandomCategory()** is input.    
+                     Can select specific category by inputing category name (Ex. "Movie Title").   
                      May use all categories by omitting input.  
-Number of Tries: User can customize number of guesses per word.
-Number of Turns: Customize total number of turns in a game.
-Starting Net Worth: Modify starting net worth. 
+Number of Tries: User can customize number of guesses per word.  
+Number of Turns: Customize total number of turns in a game.  
+Starting Net Worth: Modify starting net worth.  
 
 **Example Setup**
-FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");
+FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");  
 
-questions: references static attribute within QuestionFortune class that contains all question objects in array list.
-3: Total tries per turn.
-10: Total turns per game.
-0: Starting net worth.
-"Phrase": Specific category selection.
+questions: references static attribute within QuestionFortune class that contains all question objects in array list.      
+3: Total tries per turn.    
+10: Total turns per game.  
+0: Starting net worth.  
+"Phrase": Specific category selection.   
 
 
 Scoring: Players receive points/prizes for every correctly guessed word.      
