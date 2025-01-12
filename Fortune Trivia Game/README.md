@@ -21,8 +21,8 @@ To run this game, you'll need:
 To get started, clone the repository using the following command:
 
 ```bash 
-    git clone https://github.com/LeonAaron/Java.git
-    ```
+    git clone https://github.com/LeonAaron/Portfolio.git
+ ```
 
 This will clone the entire Java repository to your local machine.
 
@@ -31,25 +31,42 @@ This will clone the entire Java repository to your local machine.
 
 After cloning the repository, navigate to the Fortune Trivia Game folder:
 
-cd Java/Gift\ Of\ Fortune\ Game/
+cd Portfolia/Fortune\ Trivia\ Game/
 
 
 ### 3. Open in your IDE:
 
 You can now open this project in any Java-compatible IDE (such as IntelliJ IDEA or Eclipse) to start working with or running the game.
 
-**How to Run the Program**  
+### How to Run the Program 
 Open the project in your IDE.
-Locate the MainFortune.java file in the src directory.
+Locate the **MainFortune.java** file in the src directory.
 Run the MainFortune class. This will start the game.
-The game will automatically present a hint and ask the player to guess the answer. Based on the answer, you will receive feedback on whether the guess was correct or not.
+After selecting a random prize for the round, the game will automatically present a hint and ask the player to guess the answer. Based on the answer, you will receive feedback on whether the guess was correct or not.
 
-**Game Settings**  
-Question categories: The game can randomly select questions from different categories (e.g., "Phrase", "Movie Title", "Animal", etc.). <br>
-Rounds: Each round presents a question with a hint. You need to guess the correct answer. <br>
-Scoring: Players receive points for every correct answer. <br>
+### Game Settings  
+Can be customized in MainFortune.py  
 
-**Example Gameplay**
+Question Categories: The game can randomly select questions from different categories if **Question.generateRandomCategory()** is input.  
+                     Can select specific category by inputing category name (Ex. "Movie Title").
+                     May use all categories by omitting input.  
+Number of Tries: User can customize number of guesses per word.
+Number of Turns: Customize total number of turns in a game.
+Starting Net Worth: Modify starting net worth. 
+
+**Example Setup**
+FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");
+
+questions: references static attribute within QuestionFortune class that contains all question objects in array list.
+3: Total tries per turn.
+10: Total turns per game.
+0: Starting net worth.
+"Phrase": Specific category selection.
+
+
+Scoring: Players receive points/prizes for every correctly guessed word.      
+
+### Example Gameplay
 
 Example 1 <br>
 Hint: "A common greeting." <br>
@@ -98,7 +115,7 @@ new QuestionFortune("A country known for its pyramids and ancient civilization."
 
 **To change the number of rounds or difficulty, modify the FortuneGame class:**  
 
-FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");  
+
 The first number 3 represents the number of rounds.  
 The second number 10 represents the time limit (you can modify this as needed).  
 "Phrase" is the default category, which can be adjusted.  
