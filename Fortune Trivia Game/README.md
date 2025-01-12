@@ -12,7 +12,7 @@ Fortune Trivia Game is a Java-based word guessing game. It presents the player w
 ## Requirements
 To run this game, you'll need:
 - **Java 8 or higher** installed on your machine.
-- A suitable IDE like **Eclipse**, **IntelliJ IDEA**, or **NetBeans**, or you can use the **command line**.
+- A suitable IDE like **Eclipse** or **IntelliJ IDEA**
 
 ## Installation Instructions
 
