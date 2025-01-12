@@ -12,5 +12,5 @@ This repository contains a collection of programming projects that were created 
 ## List of Scripts:
 
 1. [Fortune_Trivia_Game.java](https://github.com/LeonAaron/Portfolio/tree/main/Fortune%20Trivia%20Game) - Batch rename a group of files in a specified directory, changing their extensions.
-2. [Hangman.java](https://github.com/geekcomputers/Python/blob/master/create_dir_if_not_there.py) - Check if a directory exists in the user's home directory. Create it if it doesn't exist.
-3. [Minesweeper.java](https://github.com/geekcomputers/Python/blob/master/youtubedownloader.py) - Download YouTube videos quickly with parallel threads using aria2c.
+2. [Hangman.java](https://github.com/LeonAaron/Portfolio/tree/main/Hangman) - Check if a directory exists in the user's home directory. Create it if it doesn't exist.
+3. [Minesweeper.java](https://github.com/LeonAaron/Portfolio/tree/main/Minesweeper) - Download YouTube videos quickly with parallel threads using aria2c.
