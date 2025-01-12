@@ -1,7 +1,7 @@
 # Fortune Trivia Game
 
 ## Overview
-Fortune Trivia Game is a Java-based word guessing game. It presents the player with a series of questions in various categories such as phrases, movies, animals, countries, and more. The player needs to guess the correct answer based on the hint provided. The game is built using Object-Oriented Programming principles, and it features randomization of categories and questions for an engaging experience.
+Fortune Trivia Game is a Java-based word guessing game. It presents the player with a series of questions in various categories such as phrases, movies, animals, countries, and more. After guessing letters for a specified number of turns, the player needs to guess the correct answer based on the hint provided. The game is built using Object-Oriented Programming principles, and it features randomization of categories and questions for an engaging experience.
 
 ## Features
 - Multiple categories for questions (e.g., "Phrase", "Movie Title", "Animal", "Country", etc.)
@@ -47,47 +47,61 @@ After selecting a random prize for the round, the game will automatically presen
 ### Game Settings  
 Can be customized in MainFortune.py  
 
-Question Categories: The game can randomly select questions from different categories if **Question.generateRandomCategory()** is input.    
-                     Can select specific category by inputing category name (Ex. "Movie Title").   
-                     May use all categories by omitting input.  
-Number of Tries: User can customize number of guesses per word.  
-Number of Turns: Customize total number of turns in a game.  
-Starting Net Worth: Modify starting net worth.  
+**Question Categories:**  
+- The game can randomly select questions from different categories if **Question.generateRandomCategory()** is input.    
+- Can select specific category by inputing category name (Ex. "Movie Title").   
+- May use all categories by omitting input.  
 
-**Example Setup**
+**Number of Tries:** User can customize number of letter guesses per word.  
+**Number of Turns:** Customize total number of turns in a game.  
+**Starting Net Worth:** Modify starting net worth.  
+
+**Example Setup**  
+
 FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");  
 
-questions: references static attribute within QuestionFortune class that contains all question objects in array list.      
-3: Total tries per turn.    
-10: Total turns per game.  
-0: Starting net worth.  
-"Phrase": Specific category selection.   
+- **questions:** references static attribute within QuestionFortune class that contains all question objects in array list.      
+- **3:** Total letter guessing tries per turn.    
+- **10:** Total turns per game.  
+- **0:** Starting net worth.  
+- **"Phrase":** Specific category selection.   
 
 
-Scoring: Players receive points/prizes for every correctly guessed word.      
+**Scoring:** Players receive points/prizes for every correctly guessed word.      
 
 ### Example Gameplay
 
-Example 1 <br>
-Hint: "A common greeting." <br>
-Answer: "HAVE A GOOD DAY" <br>
-Player's Guess: "HAVE A GOOD DAY" <br>
-Result: Correct! The player gets a point. <br>
+**Example 1** 
+- Hint: "A common greeting."
+- Tries: 3    
+- Answer: "HAVE A GOOD DAY"
+- Display: "___ _ ____ ___"
+- Player's Correct Letter Guess: "A"
+- Display: "_A__ A ____ _A_"
+- Player's Correct Letter Guess: "H"
+- Display: "HA__ A ____ _A_"
+- Player's Incorrect Letter Guess: "X"
+- Display: "HA__ A ____ _A_"
+- Player's Correct Word Guess: "HAVE A GOOD DAY"   
+- Result: Correct! The player's score is increased.   <br>
+   
+**Example 2**
+- Hint: "A blockbuster movie featuring dinosaurs."
+- Tries: 2
+- Answer: "JURASSIC PARK"
+- Display: "___ _ ____ ___"
+- Player's Invalid Guess: "3"
+- Display: "INVALID INPUT"
+- Player's Correct Letter Guess: "J"
+- Display: "J_______ ____"
+- Player's Incorrect Duplicate Letter Guess: "J"
+- Display: "J was already guessed. TRY AGAIN"
+- Player's Correct Letter Guess: "K"
+- Display: "J_______ ___K"
+- Player's Incorrect Word Guess: "JXXXXXXX XXXK"  
+- Result: Incorrect! Next round.  
 
-Example 2
-Hint: "A blockbuster movie featuring dinosaurs." <br>
-Answer: "JURASSIC PARK" <br>
-Player's Guess: "JURASSIC PARK" <br>
-Result: Correct! The player gets a point. <br>
-
-Example 3 <br>
-Hint: "A domesticated animal often kept as a pet, known for its loyalty."   
-Answer: "DOG" <br>
-Player's Guess: "DOG" <br>
-Result: Correct! The player gets a point.
-
-
-**The main files in the repository are:**
+## The main files in the repository are:
 
 MainFortune.java: The entry point of the game where the game is initialized and played.  
 QuestionFortune.java: Defines the structure for each question, including the hint, answer, and category.  
