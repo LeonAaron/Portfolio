@@ -100,7 +100,7 @@ game.play();
 - Player's Incorrect Word Guess: "JABBERED WORK"  
 - Result: Incorrect! Next round.  
 
-### The files in the repository are:
+### The files of the Fortune Trivia Game are:
 
 - **MainFortune.java:** Main file where the game is initialized and played. 
 - **QuestionFortune.java:** Defines the structure for each question, including the hint, answer, and category.  
