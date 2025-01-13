@@ -11,7 +11,7 @@ Fortune Trivia Game is a Java-based word guessing game. It presents the player w
 
 ## Requirements
 To run this game, you'll need:
-- **Java 8 or higher** installed on your machine.
+- **Java 8 or higher** installed on your computer.
 - A suitable IDE like **Eclipse** or **IntelliJ IDEA**
 
 ## Installation Instructions
@@ -42,7 +42,7 @@ You can now open this project in any Java-compatible IDE (such as IntelliJ IDEA 
 - After selecting a random prize for the round, the game will automatically present a hint and ask the player to guess the answer. Based on the answer, you will receive feedback on whether the guess was correct or not.
 
 ### Game Settings  
-Can be modified in MainFortune.py  
+The game settings be modified in MainFortune.py  
 
 **Number of Tries:** User can customize number of letter guesses per word.  
 **Number of Turns:** Customize total number of turns in a game.  
@@ -100,7 +100,7 @@ FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");
 
 ### The files in the repository are:
 
-- **MainFortune.java:** Main file where the game is initialized and played.  
+- **MainFortune.java:** Main file where the game is initialized and played. 
 - **QuestionFortune.java:** Defines the structure for each question, including the hint, answer, and category.  
 - **FortuneGame.java:** Handles the game logic, including randomly selecting questions and managing the player's score.  
 
@@ -111,7 +111,7 @@ FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");
 - **Player Interaction:** The player is prompted to guess letters that they think are contained in the answer. After the designated number of tries, the user can guess the full phrase.  
 - **Feedback:** The game provides feedback, such as whether the guess was correct or not, and continues until all rounds are completed.    
 
-### If you'd like to customize the game, you can:    
+### If you would like to customize the game, you can:    
 
 - **Add more questions:** You can add a new question to the game by creating an new QuestionFortune object with personalized hint, answer, and category.    
 - **Adjust game settings:** Modify the game logic in the MainFortune class to customize the number of rounds, question categories, or number of tries.   
