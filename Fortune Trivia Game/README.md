@@ -29,37 +29,34 @@ This will clone the entire Java repository to your local machine.
 
 ### 2. Navigate to the project folder:
 
-After cloning the repository, navigate to the Fortune Trivia Game folder:
-
-cd Portfolia/Fortune\ Trivia\ Game/
-
+After cloning the repository, navigate to the Fortune Trivia Game folder.
 
 ### 3. Open in your IDE:
 
 You can now open this project in any Java-compatible IDE (such as IntelliJ IDEA or Eclipse) to start working with or running the game.
 
 ### How to Run the Program 
-Open the project in your IDE.
-Locate the **MainFortune.java** file in the src directory.
-Run the MainFortune class. This will start the game.
-After selecting a random prize for the round, the game will automatically present a hint and ask the player to guess the answer. Based on the answer, you will receive feedback on whether the guess was correct or not.
+- Open the project in your IDE.
+- Locate **MainFortune.java** in the file directory.
+- Run the MainFortune class. This will start the game.
+- After selecting a random prize for the round, the game will automatically present a hint and ask the player to guess the answer. Based on the answer, you will receive feedback on whether the guess was correct or not.
 
 ### Game Settings  
-Can be customized in MainFortune.py  
+Can be modified in MainFortune.py  
 
+**Number of Tries:** User can customize number of letter guesses per word.  
+**Number of Turns:** Customize total number of turns in a game.  
+**Starting Net Worth:** Modify starting net worth. 
+  
 **Question Categories:**  
 - The game can randomly select questions from different categories if **Question.generateRandomCategory()** is input.    
 - Can select specific category by inputing category name (Ex. "Movie Title").   
 - May use all categories by omitting input.  
 
-**Number of Tries:** User can customize number of letter guesses per word.  
-**Number of Turns:** Customize total number of turns in a game.  
-**Starting Net Worth:** Modify starting net worth.  
-
 **Example Setup**  
-
+```java
 FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");  
-
+```
 - **questions:** references static attribute within QuestionFortune class that contains all question objects in array list.      
 - **3:** Total letter guessing tries per turn.    
 - **10:** Total turns per game.  
@@ -77,11 +74,11 @@ FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");
 - Answer: "HAVE A GOOD DAY"
 - Display: "___ _ ____ ___"
 - Player's Correct Letter Guess: "A"
-- Display: "_A__ A ____ _A_"
+- Display: "\_A__ A ____ \_A_"
 - Player's Correct Letter Guess: "H"
-- Display: "HA__ A ____ _A_"
+- Display: "HA__ A ____ \_A_"
 - Player's Incorrect Letter Guess: "X"
-- Display: "HA__ A ____ _A_"
+- Display: "HA__ A ____ \_A_"
 - Player's Correct Word Guess: "HAVE A GOOD DAY"   
 - Result: Correct! The player's score is increased.   <br>
    
@@ -89,7 +86,7 @@ FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");
 - Hint: "A blockbuster movie featuring dinosaurs."
 - Tries: 2
 - Answer: "JURASSIC PARK"
-- Display: "___ _ ____ ___"
+- Display: "________ ____"
 - Player's Invalid Guess: "3"
 - Display: "INVALID INPUT"
 - Player's Correct Letter Guess: "J"
@@ -98,38 +95,38 @@ FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");
 - Display: "J was already guessed. TRY AGAIN"
 - Player's Correct Letter Guess: "K"
 - Display: "J_______ ___K"
-- Player's Incorrect Word Guess: "JXXXXXXX XXXK"  
+- Player's Incorrect Word Guess: "JABBERED WORK"  
 - Result: Incorrect! Next round.  
 
-## The main files in the repository are:
+### The files in the repository are:
 
-MainFortune.java: The entry point of the game where the game is initialized and played.  
-QuestionFortune.java: Defines the structure for each question, including the hint, answer, and category.  
-FortuneGame.java: Handles the game logic, including randomly selecting questions and managing the player's score.  
+- **MainFortune.java:** Main file where the game is initialized and played.  
+- **QuestionFortune.java:** Defines the structure for each question, including the hint, answer, and category.  
+- **FortuneGame.java:** Handles the game logic, including randomly selecting questions and managing the player's score.  
 
+### How the Game Works  
 
-**How the Game Works**
+- **Game Setup:** The game initializes a list of QuestionFortune objects, each containing a hint, answer, and category.   
+- **Randomization:** At the start of each round, the game randomly selects a prize and question depending on category settings.   
+- **Player Interaction:** The player is prompted to guess letters that they think are contained in the answer. After the designated number of tries, the user can guess the full phrase.  
+- **Feedback:** The game provides feedback, such as whether the guess was correct or not, and continues until all rounds are completed.    
 
-Game Setup: The game initializes a list of QuestionFortune objects, each containing a hint, answer, and category.  
-Randomization: At the start of each round, the game randomly selects a category and presents a question from that category.  
-Player Interaction: The player is prompted to guess the answer to the question.  
-Feedback: The game provides feedback, such as whether the guess was correct or not, and continues until all rounds are completed.  
+### If you'd like to customize the game, you can:    
 
-**If you'd like to customize the game, you can:**
+- **Add more questions:** You can add a new question to the game by creating an new QuestionFortune object with personalized hint, answer, and category.    
+- **Adjust game settings:** Modify the game logic in the MainFortune class to customize the number of rounds, question categories, or number of tries.   
 
-Add more categories: You can add new question categories to the game by adding new QuestionFortune objects with different hints and answers.  
-Adjust game settings: Modify the game logic in the FortuneGame class to change the number of rounds, question types, or difficulty.  
-Adding New Categories:  
-To add a new category, simply create a new QuestionFortune object with the following format:  
+### Adding New Questions/Categories:  
 
+To add a new question, create a new QuestionFortune object with the following format:  
+```java
 new QuestionFortune("Your hint", "Your answer", "Your category");  
+```
+For example: 
 
-For example:  
+```java
 new QuestionFortune("A country known for its pyramids and ancient civilization.", "EGYPT", "Country");  
+```  
 
-**To change the number of rounds or difficulty, modify the FortuneGame class:**  
-
-
-The first number 3 represents the number of rounds.  
-The second number 10 represents the time limit (you can modify this as needed).  
-"Phrase" is the default category, which can be adjusted.  
+  
+**Created By Leon Aaron**
