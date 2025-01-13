@@ -42,7 +42,7 @@ You can now open this project in any Java-compatible IDE (such as IntelliJ IDEA 
 - After selecting a random prize for the round, the game will automatically present a hint and ask the player to guess the answer. Based on the answer, you will receive feedback on whether the guess was correct or not.
 
 ### Game Settings  
-The game settings be modified in MainFortune.py  
+The game settings be modified in MainFortune.java
 
 **Number of Tries:** User can customize number of letter guesses per word.  
 **Number of Turns:** Customize total number of turns in a game.  
