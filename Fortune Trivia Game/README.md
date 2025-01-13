@@ -24,7 +24,7 @@ To get started, clone the repository using the following command:
     git clone https://github.com/LeonAaron/Portfolio.git
  ```
 
-This will clone the entire Java repository to your local machine.
+This will clone the entire Java repository to your computer.
 
 
 ### 2. Navigate to the project folder:
