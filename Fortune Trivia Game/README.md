@@ -24,7 +24,7 @@ To get started, clone the repository using the following command:
     git clone https://github.com/LeonAaron/Portfolio.git
  ```
 
-This will clone the entire Java repository to your computer.
+This will clone my entire portfolio repository to your computer.
 
 
 ### 2. Navigate to the project folder:
@@ -55,13 +55,15 @@ The game settings be modified in MainFortune.py
 
 **Example Setup**  
 ```java
-FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");  
+FortuneGame game = new FortuneGame(questions, 3, 10, 0, "Phrase");
+game.play();  
 ```
 - **questions:** references static attribute within QuestionFortune class that contains all question objects in array list.      
 - **3:** Total letter guessing tries per turn.    
 - **10:** Total turns per game.  
 - **0:** Starting net worth.  
-- **"Phrase":** Specific category selection.   
+- **"Phrase":** Specific category selection.
+- **game.play();** Runs the game.
 
 
 **Scoring:** Players receive points/prizes for every correctly guessed word.      
