@@ -84,7 +84,7 @@ game.game();
 - Display: "BANANA"
 - Result: Correct! You win
 
-### Files in the Repository:
+### Files in the Hangman Project:
 - **MainHangman.java:** The main class where the game is initialized and played.
 - **Hangman.java:** Contains the core logic of the Hangman game, including the methods for displaying the game state and checking guesses.
 
