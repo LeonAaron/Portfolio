@@ -6,7 +6,7 @@ public class LibraryManagementSystem {
     public static Scanner _sc = new Scanner(System.in);
 
     //Constant
-    static int _maxCapacity = 5;
+    static int _maxCapacity = 100;
 
     //Class variable for every book object
     static int _bookCount = 0;
