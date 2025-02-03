@@ -2,7 +2,7 @@ package assn02;
 
 import java.util.Scanner;
 
-public class LMS {
+public class LibraryManagementSystem {
     public static Scanner _sc = new Scanner(System.in);
 
     //Constant
@@ -14,7 +14,7 @@ public class LMS {
 
     //Main meathod of program
     public static void main(String[] args) {
-        LMS.menu();
+        LibraryManagementSystem.menu();
     }
 
 
