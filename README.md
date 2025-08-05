@@ -7,7 +7,7 @@ Hello, my name is Leon Aaron and I am a highly motivated Computer Science studen
 
 <hr>
 
-This repository contains a collection of programming projects that were created as a way to improve and reinforce my computer science skill.
+This repository contains a collection of my personal programming projects.
 
 ## List of Scripts:
 
