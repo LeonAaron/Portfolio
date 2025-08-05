@@ -11,7 +11,7 @@ This repository contains a collection of my personal programming projects.
 
 ## List of Scripts:
 
-1. [S&P_500_Stock_Analyzer.py](https://github.com/LeonAaron/Portfolio/tree/main/Stock%20Evaluator%20for%20Value%20Investing) - Evaluates the financials of S&P 500 stocks to guide value investment decisions.
+1. [S&P_500_Stock_Analyzer.py](https://github.com/LeonAaron/Portfolio/tree/main/S%26P%20500%20Stock%20Analyzer) - Evaluates the financials of S&P 500 stocks to guide value investment decisions.
 2. [Fortune_Trivia_Game.java](https://github.com/LeonAaron/Portfolio/tree/main/Fortune%20Trivia%20Game) - Fun trivia game with customizable difficulty and catgory settings.
 3. [Hangman.java](https://github.com/LeonAaron/Portfolio/tree/main/Hangman) - Entertaining recreation of Hangman with exception handling to prevent invalid user input.
 4. [Minesweeper.java](https://github.com/LeonAaron/Portfolio/tree/main/Minesweeper) - Engaing recreation of Minesweeper that utilizes recursion and object-oriented programming.
