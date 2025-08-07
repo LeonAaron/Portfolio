@@ -48,7 +48,7 @@ git clone https://github.com/LeonAaron/Portfolio.git
 ### 2. Navigate to the project folder
 
 ```bash
-cd Portfolio/S&P 500 Stock Analyzer
+cd Portfolio/S"&"P_500_Stock_Analyzer
 ```
 
 ### 3. Install libraries
