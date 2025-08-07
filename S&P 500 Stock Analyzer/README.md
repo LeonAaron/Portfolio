@@ -48,7 +48,7 @@ git clone https://github.com/LeonAaron/Portfolio.git
 ### 2. Navigate to the project folder
 
 ```bash
-cd Portfolio/S\&P_500_Stock_Analyzer
+cd Portfolio/S&Pamp;_500_Stock_Analyzer
 ```
 
 ### 3. Install libraries
@@ -66,7 +66,7 @@ pip install pandas
 ## How to Run the Program
 
 1. Open a terminal or IDE (like VS Code or PyCharm).
-2. Ensure the `S\&P500_Data.xlsx`, `Competitors_Map.py`, and `S&P_500_Stock_Analyzer.py` files are in the same folder.
+2. Ensure the `S&amp;P500_Data.xlsx`, `Competitors_Map.py`, and `S&P_500_Stock_Analyzer.py` files are in the same folder.
 3. Run the main Python file:
 
 ```bash
