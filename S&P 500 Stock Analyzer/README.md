@@ -48,7 +48,7 @@ git clone https://github.com/LeonAaron/Portfolio.git
 ### 2. Navigate to the project folder
 
 ```bash
-cd Portfolio/S&P_500_Stock_Analyzer
+cd Portfolio/S&P 500 Stock Analyzer
 ```
 
 ### 3. Install libraries
@@ -70,7 +70,7 @@ pip install pandas
 3. Run the main Python file:
 
 ```bash
-python S&P_500_Stock_Analyzer.py
+S&P_500_Stock_Analyzer.py
 ```
 
 4. A full-screen GUI will appear.
