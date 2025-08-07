@@ -4,7 +4,7 @@
 
 S&P 500 Stock Analyzer is a Python-based desktop application that helps users evaluate whether a publicly traded company is a good value investment. Built with financial principles used by professional analysts, the app scores each stock based on six key metrics and compares its performance to top competitors in the same industry. The GUI provides a user-friendly interface for analyzing individual stocks and visualizing their financial strengths and weaknesses.
 
-The project was created using **pandas** for data analysis and **Tkinter** for the graphical user interface. It was designed to support real-world investing decisions and was used to guide $10,000 in stock selections for the **Hagan Scholarship Foundation** investment account.
+The project was created using **pandas** for data analysis and **Tkinter** for the graphical user interface. It was designed to support real-world investing decisions and was used to guide $10,000 in stock selections for a **Hagan Scholarship Foundation** investment account.
 
 ---
 
@@ -13,7 +13,7 @@ The project was created using **pandas** for data analysis and **Tkinter** for t
 - Evaluates stocks from the **S&P 500** using:
   - Return on Enterprise Value (ROEV)
   - Net Profit Margin
-  - Revenue Growth (2-Year CAGR)
+  - Revenue Growth
   - Net Debt / EBITDA Ratio
 - **Compares stocks to top industry competitors** using a built-in competitor mapping system
 - **Scoring algorithm** outputs a value investment rating (0–10 scale)
@@ -34,7 +34,6 @@ To run this project, you’ll need:
 - Required Python packages:
   - `pandas`
   - `tkinter` (usually pre-installed with Python)
-- **Excel file** (`S&P500_Data.xlsx`) with financial data for S&P 500 companies
 
 ---
 
@@ -52,7 +51,7 @@ git clone https://github.com/LeonAaron/Portfolio.git
 cd Portfolio/S&P_500_Stock_Analyzer
 ```
 
-### 3. Install dependencies
+### 3. Install libraries
 
 You can install the required packages using pip:
 
@@ -67,19 +66,41 @@ pip install pandas
 ## How to Run the Program
 
 1. Open a terminal or IDE (like VS Code or PyCharm).
-2. Ensure the `S&P500_Data.xlsx` file is in the same directory as the Python script.
+2. Ensure the `S&P500_Data.xlsx`, `Competitors_Map.py`, and `S&P_500_Stock_Analyzer.py` files are in the same folder.
 3. Run the main Python file:
 
 ```bash
-python stock_analyzer.py
+python S&P_500_Stock_Analyzer.py
 ```
 
 4. A full-screen GUI will appear.
-5. Enter a valid stock ticker symbol (e.g., `TSLA`, `WMT`, `GOOGL`) to evaluate.
+5. Enter a valid S&P 500 stock ticker symbol (e.g., `NVDA`, `WMT`, `JPM`) to evaluate.
 6. The app will analyze the company, compare it to competitors, and display a score and recommendation.
 
 ---
 
+## Project Files
+
+- `stock_analyzer.py` – Main program file with scoring logic and GUI
+- `Competitors_Map.py` – Python file containing the dictionary of competitors for each stock ticker
+- `S&P500_Data.xlsx` – Excel file with financial metrics for S&P 500 stocks
+
+---
+
+## Scoring Breakdown
+
+The stock score is computed out of 10 based on the following weights:
+
+| Metric                                 | Weight |
+|----------------------------------------|--------|
+| Return on Enterprise Value (ROEV)      | 25%    |
+| Revenue Growth                         | 5%     |
+| Debt Ratio (Net Debt / EBITDA)         | 15%    |
+| ROEV vs. Top Competitor                | 20%    |
+| Profit Margin vs. Top Competitor       | 20%    |
+| Revenue Growth vs. Top Competitor      | 15%    |
+
+---
 ## Example Analysis Output
 
 ```
@@ -99,31 +120,6 @@ TSLA Score: 9.1 / 10                             Excellent Value Investment ✅
 
 ---
 
-## Scoring Breakdown
-
-The stock score is computed out of 10 based on the following weights:
-
-| Metric                                 | Weight |
-|----------------------------------------|--------|
-| Return on Enterprise Value             | 25%    |
-| Revenue Growth                         | 5%     |
-| Debt Ratio (Net Debt / EBITDA)         | 15%    |
-| ROEV vs. Top Competitor                | 20%    |
-| Profit Margin vs. Top Competitor       | 20%    |
-| Revenue Growth vs. Top Competitor      | 15%    |
-
----
-
-## Customization
-
-You can modify the following settings directly in the code:
-
-- **Competitor Mapping**: Edit the `competitor_map` dictionary to adjust which companies are compared.
-- **Weight Configuration**: Adjust the `WEIGHTS` dictionary in the `investmentAnalysis` class to prioritize different financial metrics.
-- **GUI Settings**: Change fonts, colors, or layout in the `StockAppGUI` class.
-
----
-
 ## Real-World Application
 
 This project was used to guide real investments, including:
@@ -137,18 +133,14 @@ This project was used to guide real investments, including:
 
 ---
 
-## Project Files
+## Customization
 
-- `stock_analyzer.py` – Main program file with scoring logic and GUI
-- `Competitors_Map.py` – Python file containing the dictionary of competitors for each stock ticker
-- `S&P500_Data.xlsx` – Excel file with financial metrics for S&P 500 stocks
+You can modify the following settings directly in the code:
+
+- **Competitor Mapping**: Edit the `competitor_map` dictionary to adjust which companies are compared.
+- **Weight Configuration**: Adjust the `WEIGHTS` dictionary in the `investmentAnalysis` class to prioritize different financial metrics.
+- **GUI Settings**: Change fonts, colors, or layout in the `StockAppGUI` class.
 
 ---
 
-## Created By
-
-**Leon Aaron**
-
-- UNC Chapel Hill Computer Science Student
-- Passionate about AI, value investing, and data analysis
-- [GitHub Portfolio](https://github.com/LeonAaron/Portfolio)
+**Created By Leon Aaron**
