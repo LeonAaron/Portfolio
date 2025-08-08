@@ -169,16 +169,16 @@ Metrics shown are based on financial data from **June 1, 2025**.
 
 **Value Investing:**  A long-term strategy focused on buying high-quality, industry-leading companies trading below their intrinsic value.
 
-**Enterprise Value:**  Market Cap + Total Debt – Cash & Equivalents. A comprehensive measure of a company’s total value, calculated as:  
+**Enterprise Value:**  *Market Cap + Total Debt – Cash & Equivalents*. A comprehensive measure of a company’s total value, calculated as:  
                      
 
-**Return on Enterprise Value:**  Net Income ÷ Enterprise Value. Measures how efficiently a company generates profit relative to its total value (including debt and cash).
+**Return on Enterprise Value:**  *Net Income ÷ Enterprise Value*. Measures how efficiently a company generates profit relative to its total value (including debt and cash).
 
 **2-Year Revenue Growth:**  The percentage increase in a company’s revenue over the past two years, excluding effects from mergers or acquisitions.
 
-**Net Profit Margin:**  Net Income ÷ Revenue. Shows what percentage of revenue becomes profit after all expenses, taxes, and interest are paid.
+**Net Profit Margin:**  *Net Income ÷ Revenue*. Shows what percentage of revenue becomes profit after all expenses, taxes, and interest are paid.
 
-**Net Debt / EBITDA:**  Net Debt ÷ EBITDA. Indicates how many years a company would need to pay off its debt using its core operating earnings.
+**Net Debt / EBITDA:**  *Net Debt ÷ EBITDA*. Indicates how many years a company would need to pay off its debt using its core operating earnings.
 
 ---
 
