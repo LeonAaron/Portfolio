@@ -2,9 +2,7 @@
 
 
 <hr>
-
-Hello, my name is Leon Aaron and I am a highly motivated Computer Science student at UNC Chapel Hill. Participating in my middle school’s robotics club as a 6th grader was an experience that sparked my creative passion for coding. Since then, I have gained proficeincy in both Java and Python and have constructed interesting programming projects to reinforce my computer science skills. I am a hard worker who strives for high-quality results and prioritizes clean, organized code. 
-
+Hello, my name is Leon Aaron and I am a dedicated computer science student at UNC Chapel Hill with experience in Python, Java, and C. I developed a strong foundation in object-oriented programming, data structures, and algorithms by creating intricate projects such as an S&P 500 Stock Analyzer, Minesweeper, and a trivia game in Java. I am a highly-motivated problem solver who prioritizes clean, organized code and high-quality results.
 <hr>
 
 This repository contains a collection of my personal programming projects.
