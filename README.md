@@ -2,7 +2,7 @@
 
 
 <hr>
-Hello, my name is Leon Aaron and I am a dedicated computer science student at UNC Chapel Hill with experience in Python, Java, and C. I developed a strong foundation in object-oriented programming, data structures, and algorithms by creating intricate projects such as an S&P 500 Stock Analyzer, Minesweeper, and a trivia game in Java. I am a highly-motivated problem solver who prioritizes clean, organized code and high-quality results.
+Hello, my name is Leon Aaron and I am a dedicated computer science student at UNC Chapel Hill with experience in Python, Java, and C. I developed a strong foundation in object-oriented programming, data structures, and algorithms by creating intricate projects such as an S&P 500 Stock Analyzer, Minesweeper, and a trivia game in Java. I am a highly-motivated problem solver who prioritizes clean, organized code and high-quality results. 
 <hr>
 
 This repository contains a collection of my personal programming projects.
