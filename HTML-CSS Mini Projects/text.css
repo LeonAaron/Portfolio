@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: justify;
+    text-shadow: -5px 5px 10px red;
+}
+.credits {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+    word-spacing: 2em;
+    text-align: right;
+    text-shadow: 0px 1px 2px yellow;
+}
+.intro {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    letter-spacing: .3em;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 20px;
+    text-shadow: -1px 1px 3px orange;
+}
+.intro:first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}
+.intro:first-line {
+    font-style: italic;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: green;
+    font-size: 100px;
+}
+
+a:active {
+    color: black;
+}
+
+#input {
+    padding: 6px 12px 6px 12px;
+    border: 2px solid brown;
+    color: #cccccc;
+}
+
+#input:focus {
+    color: black;
+}
+#input.text:focus {
+    color: black;
+}
+#submit-btn {
+    color: white;
+    background-color: brown;
+    border: 2px solid black;
+    padding: 6px 12px 6px 12px;
+}
+
+#submit-btn:hover{
+    background-color: rgb(167, 66, 66);
+}
+
+#submit-btn:active {
+    background-color: rgb(169, 85, 85);
+}
+

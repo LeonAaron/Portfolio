@@ -1,0 +1,74 @@
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: violet;
+}
+
+p#intro {
+    font-size: 100%;
+}
+p {
+    font-size: 75%;
+}
+
+p b {
+    color: blue !important;
+}
+p b {
+    color: violet;
+}
+p i {
+    color: red;
+}
+
+body {
+    background-color: aliceblue;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*comment*/
+.page {
+    border: 1px solid black;
+    padding: inherit;
+    background-color: lightgreen;
+}
+
+#p1 {
+    color: purple;
+    background-color: red;
+    text-align: left;
+}
+
+#p2 {
+    color:#FF00FF;
+    background-color: rgb(32, 30, 173);
+}
+
+#p3 {
+    color: rgb(0,100,200);
+    background-color: rgb(167, 167, 59);
+    text-align: right;
+}
+
+.ps {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#box1 {
+    background-color: rgba(255, 0, 0);
+    opacity: .5;
+    width: 100px;
+    height: 100px;
+}
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: hsla(267, 70%, 10%, 0.9);
+
+}

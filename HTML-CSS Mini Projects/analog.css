@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: lightgray;
+}
+img {
+    width: 200px;
+    height: 150px;
+}
+.content {
+    font-size: 0;
+}
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 22px;
+}
+#header1 {
+    font-size: 16px;
+    margin: 0px;
+    color: gray;
+}
+#header2 {
+    font-size: 32px;
+    margin: 0px;
+}
+#header3 {
+    font-size: 22px;
+    margin: 0px;
+    color: gray;
+}
+.menu {
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.menu-item {
+   display: inline; 
+   margin: 20px;
+}
+#home-btn {
+    color: red;
+}
+.menu-item:hover {
+    color: red;
+}
+.menu-item:active {
+    color: gray;
+}
+.desc{
+    font-size: 18px;
+    font-family: monospace;
+}
+.content {
+    margin: 0px;
+}
+#page {
+    border: 5px double black;
+    padding: 5px;
+}

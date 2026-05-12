@@ -1,0 +1,84 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+}
+#greeting {
+    width: 75%;
+    height: 75%;
+    background-color: purple;
+}
+.table {
+    text-align: left;
+    margin: 0px;
+    padding: 5px;
+    min-width: 400px;
+    max-width: 600px;
+}
+.table-img {
+    width: 60%;
+}
+
+h2 {
+    color: blue;
+    border-bottom: 2px solid blue;
+    width: 300px;
+    line-height: 120%;
+    overflow: hidden;
+    
+}
+
+
+.one {
+    border: 2px solid black;
+    border-width: 3px;
+    padding: 2px;
+}
+.two {
+    border: 2px solid black;
+    border-top-width: 10px;
+    border-right-width: thick;
+}
+.three {
+    border-width: thick;
+    border-style: solid;
+}
+
+p.one {
+    border-style: dashed;
+    border-color: red;
+}
+p.two {
+    border-style: double;
+    border-color: blue orange yellow blue;
+    margin: 10px 5px 10px 5px;
+}
+
+/*Comment*/
+p.three {
+    border-style: outset;
+    padding: 2px 5px 2px 5px;
+}
+p.four {
+    border: 2px dotted green;
+    padding: 10px;
+    margin: 20px;
+}
+
+ul {
+    text-align: center;
+}
+li {
+    display: inline;
+    margin: 5px;
+    box-shadow: inset 0 0 10px  black;
+    padding: 5px;
+    border-radius: 10px 20px 30px 40px;
+}
+li#coming-soon {
+    visibility: hidden;
+}
+
+li:hover {
+    color: red;
+}

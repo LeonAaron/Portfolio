@@ -1,0 +1,66 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+#title {
+    padding: 20px;
+    background-color: rgb(245, 236, 236);
+    color: rgb(204, 168, 120);
+}
+
+p {
+    margin: 0px;
+    padding: 5px;
+}
+.values {
+    color: white;
+}
+.base {
+    background-color: blue;
+}
+.acid {
+    background-color: red;
+}
+.neutral {
+    background-color: rgb(36, 163, 36);
+}
+#thirteen {
+    background-color: rgba(0, 64, 255, 0.872);
+}
+#twelve {
+    background-color: rgba(0, 115, 255, 0.872);
+}
+#eleven {
+    background-color: rgba(0, 187, 255, 0.872);
+}
+#ten {
+    background-color: rgba(0, 238, 255, 0.872);
+}
+#nine {
+    background-color: rgba(0, 255, 221, 0.849);
+}
+
+#eight {
+    background-color: rgba(0, 255, 179, 0.849);
+}
+
+#six {
+    background-color: pink;
+}
+#five {
+    background-color: rgb(243, 172, 184);
+}
+#four {
+    background-color: rgb(241, 160, 173);
+}
+#three {
+    background-color: rgb(231, 129, 146);
+}
+#two {
+    background-color: rgb(231, 76, 102);
+}
+#one {
+    background-color: rgb(227, 46, 76);
+}

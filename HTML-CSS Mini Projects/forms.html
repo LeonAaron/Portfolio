@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="Backend Service" method="post">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" required="required" size="30"> 
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required="required" placeholder="example@gmail.com" size="30">
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="sourcing">How did you hear about us?</label>
+            <select name="sourcing" id="sourcing">
+                <option value="google" selected="selected">Google</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="indeed">Indeed</option>
+            </select>
+
+            <p>Would you visit again?</p>
+            <input type="radio" name="visit-again" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="visit-again" id="no" value="no">
+            <label for="no">No</label>
+            <input type="radio" name="visit-again" id="maybe" value="maybe">
+            <label for="maybe">Maybe</label>
+
+            <p>Comments:</p>
+            <textarea name="comments" id="comments">Placeholder</textarea>
+
+            <br>
+            <input type="checkbox" id="updates" name="updates" checked="checked">
+            <label for="updates">Sign me up for email updates</label>
+            <br>
+            <input type="submit" value="Submit review">
+        </fieldset>
+    </form>
+
+    <hr>
+    <form action="BACKEND SERVICE">
+        <p>Username:
+            <input type="text" name="username" maxlength="30" >
+        </p>
+        <p>Password:
+            <input type="password" name="password" maxlength="30">
+        </p>
+    </form>
+
+    <form action="BACKEND SERVICE" method="get">
+        <p>What did you think of this gig?</p>
+        <textarea name="comment" id="comment">Type response here</textarea>
+    </form>
+
+    <form action="BACKEND SERVICE">
+        <p>Please select your favorite food:</p>
+        <input type="radio" name="food" value="pizza" checked="checked"> Pizza
+        <input type="radio" name="food" value="stew"> Stew
+        <input type="radio" name="food" value="steak"> Steak
+    </form>
+
+    <form action="BACKEND SERVICE">
+        <p>Select favorite music service(s):</p>
+        <input type="checkbox" name="service" value="iTunes" checked="checked"> iTunes
+        <input type="checkbox" name="service" value="Last.fm"> <Last class="fm"> Last.fm
+        <input type="checkbox" name="service" value="Spotify"> Spotify
+    </form>
+
+    <form action="BACKEND SERVICE">
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+
+        <select name="instrument" multiple="multiple" size="3">
+            <p>What instruments do you play?</p>
+            <option value="guitar" selected="selected">Guitar</option>
+            <option value="drume">Drums</option>
+            <option value="keyboard">KeyBoard</option>
+        </select>
+    </form>
+
+    <form action="BACKEND SERVICE" method="post">
+        <p>Upload song.</p>
+        <input type="file" name="user-song">
+        <input type="submit" value="Upload">
+    </form>
+
+    <form action="BACKEND">
+        <p>Subscribe to email list:</p>
+        <input type="text" name="email">
+        <input type="submit" name="Subscribe" value="Subscribe">
+        <input type="image" name="subscribe-image" src="images/elephant.jpg" width="100" height="20" alt="elephant">
+    </form>
+
+    <form action="BACKEND">
+        <button>
+            <img src="images/tactical_tiger.jpg" alt="tiger" height="10" width="10">
+            Tiger
+        </button>
+        <input type="hidden" name="bookmark" value="lyrics">
+    </form>
+
+    <label>Age: <input type="text" name="age" id="age"></label>
+    <p>Gender</p>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+
+    <fieldset>
+        <legend>Contact details</legend>
+        <label>Email: <br>
+            <input type="text" name="email"></label> <br>
+        <label>Mobile: <br>
+            <input type="text" name="mobile"></label> <br>
+        <label>Telephone: <br>
+            <input type="text" name="telephone">
+        </label>
+    </fieldset>
+
+    <form action="BACKEND SERVICE" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required="required"> <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required="required">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form action="BE" method="post">
+        <label for="departure">Departure Date:</label>
+        <input type="date" name="departure">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form action="BACKEND">
+        <label for="email">Email: </label> <br>
+        <input type="email" name="email">
+        <input type="submit" value="Submit">
+        <br>
+        <label for="website">Website:</label> <br>
+        <input type="url" name="website">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form action="BACKEND">
+        <label for="search">Search:</label> <br>
+        <input type="search" name="search" placeholder="Enter Keyword">
+        <input type="submit" value="Search">
+    </form>
+
+</body>
+</html>
