@@ -3,6 +3,9 @@
 ## Overview
 Weather App is a JavaScript web application that displays real-time weather data for any city using the OpenWeather API. The app shows the current temperature, weather conditions, highs/lows, and weather icons through a clean responsive interface.
 
+## Screenshot
+![Weather App Screenshot](images/Screenshot.png)
+
 ## Features
 - Search weather by city name
 - Displays:
