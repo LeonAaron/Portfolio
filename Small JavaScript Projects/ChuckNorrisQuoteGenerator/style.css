@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    color: lightgreen;
+    font-size: 45px;
+}
+.quote {
+    color: lightgray;
+    width: 600px;
+    margin: 0px auto;
+    font-size: 25px;
+    text-align: center;
+}
+.joke-btn {
+    background-color: black;
+    color: lightgreen;
+    border: 2px solid lightgreen;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 150px;
+    transition: .5s;
+}
+.chuck-img {
+    padding-top: 20px;
+    width: 300px;
+}
+.joke-btn:hover {
+    background-color: lightgreen;
+    color: black;
+}

@@ -1,0 +1,63 @@
+body {
+    background-image: url(images/forest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.open-btn {
+    font-size: 20px;
+    border-radius: 5px;
+
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+    cursor: pointer;
+    transition: .5s;
+}
+.open-btn:hover {
+    background-color: lightblue;
+}
+.notification {
+    background-color: white;
+    width: 200px;
+    
+    display: flex;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    border: 2px solid black;
+    animation: slideDown 0.4s ease;
+}
+
+.text {
+    padding-left: 20px;
+}
+.close-btn:hover {
+    background-color: red;
+    cursor: pointer;
+    transition: .5s;
+}
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,.5);
+}
+.hidden {
+    display: none;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translate(-50%, -200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="pokedex">
+
+        <!-- HEADER -->
+        <h1 class="title">Pokédex</h1>
+
+        <!-- SEARCH AREA -->
+        <div class="search-area">
+            <input 
+                type="text" 
+                class="search-input" 
+                placeholder="Enter Pokémon name..."
+            >
+            <button class="search-btn">Search</button>
+        </div>
+
+        <!-- DISPLAY AREA -->
+        <div class="pokemon-display">
+
+            <!-- IMAGE -->
+            <div class="image-box">
+                <img class="pokemon-img" src="" alt="Pokémon Image">
+            </div>
+
+            <!-- NAME -->
+            <h2 class="pokemon-name">--</h2>
+
+            <!-- STATS -->
+            <div class="stats">
+
+                <div class="stat">
+                    <p>HP</p>
+                    <p class="hp">--</p>
+                </div>
+
+                <div class="stat">
+                    <p>Attack</p>
+                    <p class="attack">--</p>
+                </div>
+
+                <div class="stat">
+                    <p>Defense</p>
+                    <p class="defense">--</p>
+                </div>
+
+                <div class="stat">
+                    <p>Speed</p>
+                    <p class="speed">--</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
