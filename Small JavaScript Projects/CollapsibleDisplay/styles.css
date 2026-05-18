@@ -1,0 +1,62 @@
+body {
+    background-image: url(images/sand.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 500px;
+}
+.item {
+    width: 470px;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    align-items: center;
+    font-size: 18px;
+}
+.toggle-btn {
+    height: 25px;
+    font-weight: bold;
+    background-color: inherit;
+    font-size: 20px;
+    border: 0;
+}
+.toggle-btn:hover {
+    color: lightblue;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding-top: 0;
+    transition:
+        max-height 0.5s ease,
+        opacity 0.5s ease,
+        padding-top 0.5s ease;
+}
+
+.answer.show {
+    max-height: 200px;
+    opacity: 1;
+    padding-top: 15px;
+}
