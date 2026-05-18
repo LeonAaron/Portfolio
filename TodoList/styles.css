@@ -1,0 +1,105 @@
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add-task-area {
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px;
+    width: 400px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+.task-input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    width: 300px;
+    transition: .1s;
+}
+
+.add-btn {
+    background-color: white;
+    border: 1px solid green;
+    height: 23px;
+    width: 85px;
+    border-radius: 5px;
+    color: green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 25px;
+    transition: .5s;
+}
+.task {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 5px;
+}
+.check-btn {
+    background-color: white;
+    border: 1px solid gold;
+    color: gold;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    transition: .5s;
+
+}
+.trash-btn {
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    transition: .5s;
+}
+.add-btn:hover {
+    background-color: green;
+    color: white;
+}
+.check-btn:hover {
+    background-color: gold;
+    color: white;
+}
+.trash-btn:hover {
+    background-color: red;
+    color: white;
+}
+.task-name {
+    padding-left: 10px;
+    width: 300px;
+    word-wrap: break-word;
+}
+.task-input:hover {
+    border-width: 2px;
+}
+.checked .task-name{
+    text-decoration: line-through;
+}
