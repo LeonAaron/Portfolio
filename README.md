@@ -2,14 +2,14 @@
 
 
 <hr>
-Hello, my name is Leon Aaron and I am a dedicated computer science student at UNC Chapel Hill with experience in Python, Java, and C. I developed a strong foundation in object-oriented programming, data structures, and algorithms by creating intricate projects such as an S&P 500 Stock Analyzer, Minesweeper, and a trivia game in Java. I am a highly-motivated problem solver who prioritizes clean, organized code and high-quality results. 
+Hello, my name is Leon Aaron and I am a dedicated computer science student at UNC Chapel Hill with experience in Python, Java, Spring Boot, Angular, SQL, and more. I developed a strong foundation in artificial intelligence, data structures, and algorithms by creating intricate projects such as an S&P 500 Stock Analyzer and by interning as a Software Engineer at Arch Capital Group this past summer. I am problem solver who prioritizes clean, organized code and high-quality results. 
 <hr>
 
 This repository contains a collection of my personal programming projects.
 
 ## List of Scripts:
 
-1. [S&P_500_Stock_Analyzer.py](https://github.com/LeonAaron/Portfolio/tree/main/S%26P%20500%20Stock%20Analyzer) - Evaluates the financials of S&P 500 stocks to guide value investment decisions.
+1. [S&P_500_Stock_Analyzer.py](https://github.com/LeonAaron/Portfolio/tree/main/S%26P%20500%20Stock%20Analyzer) - Evaluates the financials of S&P 500 stocks using AI to guide value investment decisions.
 2. [WeatherApp.js](https://github.com/LeonAaron/Portfolio/tree/main/WeatherApp) - Weather app that fetches and displays real-time data using the OpenWeather API.
 3. [Fortune_Trivia_Game.java](https://github.com/LeonAaron/Portfolio/tree/main/Fortune%20Trivia%20Game) - Fun trivia game with customizable difficulty and catgory settings.
 4. [TodoList.js](https://github.com/LeonAaron/Portfolio/tree/main/TodoList) - To-do list that allows users to add, manage, and delete tasks.
