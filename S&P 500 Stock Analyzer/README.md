@@ -141,7 +141,7 @@ This project was used to guide real investments, including:
 
 ---
 
-## Results
+## 2025 Results
 
 The program identified several strong value investment candidates among the S&P 500 stocks analyzed. The top 10 rated stocks are included below.
 
