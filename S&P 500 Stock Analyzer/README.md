@@ -4,7 +4,7 @@
 
 S&P 500 Stock Analyzer is a **Python**-based desktop application that helps users evaluate whether a publicly traded company is a good value investment. Built with financial principles used by professional analysts, the app scores each stock based on six key metrics and compares its performance to top competitors in the same industry. The GUI provides a user-friendly interface for analyzing individual stocks and visualizing their financial strengths and weaknesses.
 
-The project was created using **pandas** for data analysis and **Tkinter** for the graphical user interface. It was designed to support real-world investing decisions and was used to guide $10,000 in stock selections for a **Hagan Scholarship Foundation** investment account.
+The project was created using **pandas** for data retrieval, **PyTorch** for AI analysis, and **Tkinter** for the graphical user interface. It was designed to support real-world investing decisions and was used to guide $10,000 in stock selections for a **Hagan Scholarship Foundation** investment account.
 
 ---
 
@@ -16,7 +16,7 @@ The project was created using **pandas** for data analysis and **Tkinter** for t
   - Revenue Growth
   - Net Debt / EBITDA Ratio
 - **Compares stocks to top industry competitors** using a built-in competitor mapping system
-- **Scoring algorithm** outputs a value investment rating (0–10 scale)
+- **AI Scoring algorithm** outputs a value investment rating (0–10 scale)
 - **Color-coded GUI** displays stock performance with investment suggestions
 - Recommendation categories include:
   - ✅ Excellent Value Investment
@@ -34,6 +34,7 @@ To run this project, you’ll need:
 - Required Python packages:
   - `pandas`
   - `tkinter` (usually pre-installed with Python)
+  - `PyTorch`
 
 ---
 
@@ -58,6 +59,9 @@ You can install the required packages using pip:
 ```bash
 pip install pandas
 ```
+```bash
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+```
 
 > `tkinter` is typically pre-installed with Python, but if not, install it based on your operating system.
 
@@ -66,7 +70,7 @@ pip install pandas
 ## How to Run the Program
 
 1. Open a terminal or IDE (like VS Code or PyCharm).
-2. Ensure the `S&P500_Data.xlsx`, `Competitors_Map.py`, and `S&P_500_Stock_Analyzer.py` files are in the same folder.
+2. Ensure the `2026 S&P500_Data.xlsx`, `Competitors_Map.py`, and `S&P_500_Stock_Analyzer.py` files are in the same folder.
 3. Run the main Python file:
 
 ```bash
@@ -83,7 +87,7 @@ pip install pandas
 
 - `S&P_500_Stock_Analyzer.py` – Main program file with scoring logic and GUI
 - `Competitors_Map.py` – Python file containing the dictionary of competitors for each stock ticker
-- `S&P500_Data.xlsx` – Excel file with financial metrics for S&P 500 stocks
+- `2026 S&P500_Data.xlsx` – Excel file with financial metrics for S&P 500 stocks
 
 ---
 
@@ -132,6 +136,8 @@ This project was used to guide real investments, including:
   - **+8 pts** in profit margin
   - **+3.7 pts** in return on enterprise value
   - **57% less debt**
+ 
+  - **23%** Annual Returns
 
 ---
 
