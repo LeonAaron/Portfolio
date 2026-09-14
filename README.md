@@ -10,10 +10,11 @@ This repository contains a collection of my personal programming projects.
 ## List of Scripts:
 
 1. [S&P_500_Stock_Analyzer.py](https://github.com/LeonAaron/Portfolio/tree/main/S%26P%20500%20Stock%20Analyzer) - Evaluates the financials of S&P 500 stocks using AI to guide value investment decisions.
-2. [WeatherApp.js](https://github.com/LeonAaron/Portfolio/tree/main/WeatherApp) - Weather app that fetches and displays real-time data using the OpenWeather API.
-3. [Fortune_Trivia_Game.java](https://github.com/LeonAaron/Portfolio/tree/main/Fortune%20Trivia%20Game) - Fun trivia game with customizable difficulty and catgory settings.
-4. [TodoList.js](https://github.com/LeonAaron/Portfolio/tree/main/TodoList) - To-do list that allows users to add, manage, and delete tasks.
-5. [Hangman.java](https://github.com/LeonAaron/Portfolio/tree/main/Hangman) - Entertaining recreation of Hangman with exception handling to prevent invalid user input.
-6. [Minesweeper.java](https://github.com/LeonAaron/Portfolio/tree/main/Minesweeper) - Engaing recreation of Minesweeper that utilizes recursion and object-oriented programming.
-7. [LibraryManagementSystem.java](https://github.com/LeonAaron/Portfolio/blob/main/LibraryManagementSystem.java) - Useful Library Book Managment System where user check out and return library books.
-8. [Small Javascript Projects](https://github.com/LeonAaron/Portfolio/tree/main/Small%20JavaScript%20Projects) - A collection of small JavaScript projects such as a stopwatch, pokedex, and collapsible information display.
+2. [AI_Racecar.py](https://github.com/LeonAaron/Formula110LeonJayden) - Trained a PyTorch AI model to drive a racecar as fast as possible without crashing. 
+3. [WeatherApp.js](https://github.com/LeonAaron/Portfolio/tree/main/WeatherApp) - Weather app that fetches and displays real-time data using the OpenWeather API.
+4. [Fortune_Trivia_Game.java](https://github.com/LeonAaron/Portfolio/tree/main/Fortune%20Trivia%20Game) - Fun trivia game with customizable difficulty and catgory settings.
+5. [TodoList.js](https://github.com/LeonAaron/Portfolio/tree/main/TodoList) - To-do list that allows users to add, manage, and delete tasks.
+6. [Hangman.java](https://github.com/LeonAaron/Portfolio/tree/main/Hangman) - Entertaining recreation of Hangman with exception handling to prevent invalid user input.
+7. [Minesweeper.java](https://github.com/LeonAaron/Portfolio/tree/main/Minesweeper) - Engaing recreation of Minesweeper that utilizes recursion and object-oriented programming.
+8. [LibraryManagementSystem.java](https://github.com/LeonAaron/Portfolio/blob/main/LibraryManagementSystem.java) - Useful Library Book Managment System where user check out and return library books.
+9. [Small Javascript Projects](https://github.com/LeonAaron/Portfolio/tree/main/Small%20JavaScript%20Projects) - A collection of small JavaScript projects such as a stopwatch, pokedex, and collapsible information display.
